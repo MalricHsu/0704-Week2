@@ -146,6 +146,14 @@ img {
   box-sizing: border-box;
 }
 
+.h2 {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: 1.6px;
+  font-family: "Noto Sans TC", serif;
+}
+
 .h3 {
   font-size: 28px;
   font-weight: 700;
@@ -159,6 +167,14 @@ img {
   font-weight: 700;
   line-height: 1.2;
   letter-spacing: 1.2px;
+  font-family: "Noto Sans TC", serif;
+}
+
+.h5 {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: 1px;
   font-family: "Noto Sans TC", serif;
 }
 
@@ -192,6 +208,10 @@ img {
   letter-spacing: 0.6px;
   font-family: "Noto Sans TC", serif;
   color: #6c757d;
+}
+
+.fw-400 {
+  font-weight: 400;
 }
 
 .fw-500 {
@@ -310,6 +330,10 @@ img {
   gap: 48px 24px;
 }
 
+.gap-2 {
+  gap: 8px;
+}
+
 .d-flex {
   display: flex;
 }
@@ -342,6 +366,10 @@ img {
   text-decoration: none;
 }
 
+.text-decoration-line-through {
+  text-decoration: line-through;
+}
+
 .text-center {
   text-align: center;
 }
@@ -362,6 +390,10 @@ img {
   color: #dee2e6;
 }
 
+.text-fifth {
+  color: #adb5bd;
+}
+
 .text-white {
   color: #fff;
 }
@@ -376,6 +408,14 @@ img {
 
 .w-196 {
   width: 196px;
+}
+
+.w-526 {
+  width: 526px;
+}
+
+.w-746 {
+  width: 746px;
 }
 
 .w-1076 {
@@ -394,6 +434,14 @@ img {
   height: 40px;
 }
 
+.w-64 {
+  width: 64px;
+}
+
+.h-64 {
+  height: 64px;
+}
+
 .w-100 {
   width: 100%;
 }
@@ -408,6 +456,10 @@ img {
 
 .pagination .page a:hover {
   background: #f8f9fa;
+}
+
+.show-pic {
+  max-width: calc((100% - 8px) / 2);
 }
 
 .card {
