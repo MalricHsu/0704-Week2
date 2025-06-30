@@ -1,0 +1,20 @@
+@import "reset";
+@import "utilities";
+
+.card {
+  width: calc((100% - 48px) / 3);
+  a {
+    text-decoration: none;
+    color: inherit; //保留文字的顏色
+  }
+}
+.hightlight-green {
+  background: #e8fec5;
+  .btn-enroll {
+    min-height: 48px;
+    border-radius: 4px;
+    padding: 12px 24px;
+    background: #212529;
+    cursor: pointer;
+  }
+}
