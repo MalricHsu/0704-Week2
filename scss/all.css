@@ -555,6 +555,10 @@ img {
   color: #fff;
 }
 
+.heart:active {
+  color: #fff;
+}
+
 .btn-booking {
   width: 259px;
   border-radius: 8px;
