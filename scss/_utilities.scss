@@ -88,6 +88,11 @@
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
 }
+
+.py-10 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
 .py-3 {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
@@ -106,6 +111,10 @@
   padding-top: 2rem;
   padding-bottom: 2rem;
 }
+.py-12 {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
 
 .py-21 {
   padding-top: 4rem;
@@ -115,6 +124,9 @@
 //margin
 .m-auto {
   margin: 0 auto;
+}
+.mt-10 {
+  margin-top: 40px;
 }
 .mt-12 {
   margin-top: 3rem;
@@ -168,6 +180,10 @@
 .gap-2 {
   gap: 8px;
 }
+
+.gap-24 {
+  gap: 0 24px;
+}
 //display
 .d-flex {
   display: flex;
@@ -181,6 +197,9 @@
   flex-wrap: wrap;
 }
 
+.flex-direction-column {
+  flex-direction: column;
+}
 .justify-content-center {
   justify-content: center;
 }
@@ -195,6 +214,9 @@
 
 .border-top {
   border-top: 1px solid #dee2e6;
+}
+.border-bottom {
+  border-bottom: 1px solid #dee2e6;
 }
 
 .text-decoration-none {
@@ -225,6 +247,9 @@
 .text-white {
   color: #fff;
 }
+.text-warning {
+  color: #d74f4f;
+}
 
 .bg-footer {
   background: #f8f9fa;
@@ -237,6 +262,12 @@
 
 .w-196 {
   width: 196px;
+}
+.w-429 {
+  width: 429px;
+}
+.w-496 {
+  width: 496px;
 }
 .w-526 {
   width: 526px;
