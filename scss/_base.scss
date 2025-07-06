@@ -1,0 +1,53 @@
+.hightlight-green {
+  background: #e8fec5;
+  .btn-enroll {
+    min-height: 48px;
+    border-radius: 4px;
+    padding: 12px 24px;
+    background: #212529;
+    cursor: pointer;
+  }
+}
+
+//good-detail 按鈕設定
+.size-button {
+  width: 160px;
+  height: 48px;
+  border-radius: 8px;
+  padding: 12px 24px;
+  border: 1px solid #dee2ed;
+  background: #fff;
+  cursor: pointer;
+
+  &:hover {
+    border: 1px solid #6c757d;
+  }
+}
+.btn-active {
+  border: 1px solid #212529;
+}
+.btn-disable {
+  cursor: not-allowed;
+  &:hover {
+    border: 1px solid #dee2ed;
+  }
+}
+.btn-favorite {
+  width: 259px;
+  border-radius: 8px;
+  padding: 12px 24px;
+  background: #fff;
+  cursor: pointer;
+
+  &:hover {
+    background: #000;
+    color: #fff;
+  }
+}
+.btn-booking {
+  width: 259px;
+  border-radius: 8px;
+  padding: 12px 24px;
+  background: #000;
+  cursor: pointer;
+}
