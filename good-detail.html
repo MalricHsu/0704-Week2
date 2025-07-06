@@ -146,14 +146,16 @@
               </div>
               <p class="sm text-warning mb-12">僅剩 3 雙</p>
               <div class="booking d-flex gap-2 mb-8">
-                <button
+                <a
+                  type="button"
                   class="btn-favorite md text-secondary d-flex justify-content-center align-items-center"
                 >
-                  <i class="bi bi-heart heart me-2"></i>
+                  <i class="bi bi-heart me-2"></i>
 
                   加入收藏
-                </button>
-                <button
+                </a>
+                <a
+                  type="button"
                   class="btn-booking md text-white d-flex justify-content-center align-items-center"
                 >
                   <img
@@ -161,7 +163,7 @@
                     src="./Photo/handbag.svg"
                     alt="預約"
                   />門市預約試穿
-                </button>
+                </a>
               </div>
               <div class="product-material py-3 border-bottom">
                 <p class="md text-secondary mb-1">商品材質</p>
@@ -214,28 +216,40 @@
       </main>
       <section class="other-goods">
         <div class="px-lxx py-12">
-          <h4 class="h4 mb-4 py-10">你可能也喜歡...</h4>
+          <h4 class="h4 mb-4 py-2-5">你可能也喜歡...</h4>
           <div class="other-shoe d-flex gap-x-6">
-            <div class="shoe-card d-flex flex flex-direction-column">
+            <a
+              href="#"
+              class="shoe-card d-flex flex flex-direction-column text-secondary text-decoration-none"
+            >
               <img class="mb-3" src="./Photo/product-2.png" alt="商品3" />
               <h6 class="h6 mb-1">VM001</h6>
               <p class="md">NT$2,600</p>
-            </div>
-            <div class="shoe-card d-flex flex flex-direction-column">
+            </a>
+            <a
+              href="#"
+              class="shoe-card d-flex flex flex-direction-column text-secondary text-decoration-none"
+            >
               <img class="mb-3" src="./Photo/product-3.png" alt="商品4" />
               <h6 class="h6 mb-1">Melty Kiss</h6>
               <p class="md">NT$4,000</p>
-            </div>
-            <div class="shoe-card d-flex flex flex-direction-column">
+            </a>
+            <a
+              href="#"
+              class="shoe-card d-flex flex flex-direction-column text-secondary text-decoration-none"
+            >
               <img class="mb-3" src="./Photo/product-4.png" alt="商品5" />
               <h6 class="h6 mb-1">BOOMBLOK</h6>
               <p class="md">NT$3,200</p>
-            </div>
-            <div class="shoe-card d-flex flex-direction-column">
+            </a>
+            <a
+              href="#"
+              class="shoe-card d-flex flex flex-direction-column text-secondary text-decoration-none"
+            >
               <img class="mb-3" src="./Photo/product-7.png" alt="商品8" />
               <h6 class="h6 mb-1">Sugar Snap</h6>
               <p class="md">NT$3,200</p>
-            </div>
+            </a>
           </div>
         </div>
       </section>
@@ -281,5 +295,6 @@
         </div>
       </footer>
     </div>
+    <script src="./app.js"></script>
   </body>
 </html>

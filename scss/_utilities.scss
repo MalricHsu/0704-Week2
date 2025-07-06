@@ -83,12 +83,16 @@ h6 {
 }
 
 //padding 上下
+.py-1 {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
 .py-2 {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
 }
 //距離10px
-.py-10 {
+.py-2-5 {
   padding-top: 0.625rem;
   padding-bottom: 0.625rem;
 }

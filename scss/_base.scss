@@ -34,20 +34,39 @@
 }
 .btn-favorite {
   width: 259px;
+  height: 48px;
   border-radius: 8px;
+  border: 1px solid #212529;
   padding: 12px 24px;
   background: #fff;
   cursor: pointer;
 
   &:hover {
-    background: #000;
+    background: #212529;
     color: #fff;
+  }
+  &.active {
+    background-color: #fff;
+    color: #000;
+
+    .heart-fill {
+      color: #000;
+    }
   }
 }
 .btn-booking {
   width: 259px;
+  height: 48px;
   border-radius: 8px;
   padding: 12px 24px;
-  background: #000;
+  background: #212529;
   cursor: pointer;
+}
+
+//i標籤大小設定
+.bi-heart {
+  font-size: 19px;
+}
+.bi-heart-fill {
+  font-size: 19px;
 }
